@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Radio, MessageSquare, Settings, Home as HomeIcon, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { AuthButtons } from "./components/AuthButtons";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,8 +39,6 @@ export default function Home() {
               <p className="text-[11px] text-zinc-400 font-medium">Plataforma Oficial</p>
             </div>
           </div>
-          
-          <AuthButtons />
           
           <nav className="space-y-1.5">
             <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 px-3">Menu Principal</span>
