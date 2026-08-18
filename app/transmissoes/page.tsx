@@ -120,6 +120,27 @@ export default function TransmissoesPage() {
                 className="w-full h-full absolute inset-0 border-0"
               />
             </div>
+
+            {/* AVISO DE SUPORTE / VPN PARA CELULAR E PC */}
+            <div className="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-4 md:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left mt-4">
+              <div className="space-y-1">
+                <h3 className="text-xs md:text-sm font-bold text-amber-400 flex items-center justify-center sm:justify-start gap-2">
+                  ⚠️ O player não carregou ou deu erro de IP no celular/PC?
+                </h3>
+                <p className="text-[11px] md:text-xs text-zinc-400 max-w-xl">
+                  Provedores de internet costumam bloquear o sinal. Utilize o aplicativo gratuito da Cloudflare (1.1.1.1) para liberar o acesso:
+                </p>
+              </div>
+              
+              <a
+                href="https://one.one.one.one/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-4 py-2.5 rounded-xl text-xs transition-all whitespace-nowrap shadow-lg shadow-amber-500/20 cursor-pointer"
+              >
+                Baixar / Ativar 1.1.1.1 ↗
+              </a>
+            </div>
           </div>
 
           {/* SELEÇÃO DE BOTÕES DOS CANAIS */}
