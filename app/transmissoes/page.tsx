@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Radio, MessageSquare, Settings, Home as HomeIcon, MonitorPlay, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { AuthButtons } from "../components/AuthButtons";
 
 const channels = [
   { id: "getv", name: "Ge Tv", src: "//redecanaistv.vision/player3/ch.php?canal=getv", badge: "GE TV" },
@@ -13,6 +12,10 @@ const channels = [
   { id: "sportv3", name: "Sportv 3", src: "//redecanaistv.vision/player3/ch.php?canal=sportv3", badge: "SPORTV" },
   { id: "espn1", name: "ESPN 1", src: "//redecanaistv.vision/player3/ch.php?canal=espn", badge: "ESPN" },
   { id: "premiere", name: "Premiere", src: "//redecanaistv.vision/player3/ch.php?canal=premiereclubes", badge: "PREMIERE" },
+  { id: "cazetv", name: "CazéTV", src: "//redecanaistv.vision/player3/ch.php?canal=cazetv1", badge: "CAZÉTV" },
+  { id: "primevideo1", name: "Prime Video 1", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo1", badge: "PRIME" },
+  { id: "primevideo2", name: "Prime Video 2", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo2", badge: "PRIME" },
+  { id: "primevideo3", name: "Prime Video 3", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo3", badge: "PRIME" },
 ];
 
 export default function TransmissoesPage() {
@@ -50,8 +53,6 @@ export default function TransmissoesPage() {
               <p className="text-[11px] text-zinc-400 font-medium">Plataforma Oficial</p>
             </div>
           </div>
-          
-          <AuthButtons />
           
           <nav className="space-y-1.5">
             <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 px-3">Menu Principal</span>
