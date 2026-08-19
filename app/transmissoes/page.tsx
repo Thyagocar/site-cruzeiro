@@ -13,6 +13,7 @@ const channels = [
   { id: "espn1", name: "ESPN 1", src: "//redecanaistv.vision/player3/ch.php?canal=espn", badge: "ESPN" },
   { id: "premiere", name: "Premiere", src: "//redecanaistv.vision/player3/ch.php?canal=premiereclubes", badge: "PREMIERE" },
   { id: "cazetv", name: "CazéTV", src: "//redecanaistv.vision/player3/ch.php?canal=cazetv1", badge: "CAZÉTV" },
+  { id: "paramount", name: "Paramount+", src: "//redecanaistv.pk/player3/ch.php?canal=paramountplus2", badge: "PARAMOUNT" },
   { id: "primevideo1", name: "Prime Video 1", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo1", badge: "PRIME" },
   { id: "primevideo2", name: "Prime Video 2", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo2", badge: "PRIME" },
   { id: "primevideo3", name: "Prime Video 3", src: "//redecanaistv.vision/player3/ch.php?canal=primevideo3", badge: "PRIME" },
